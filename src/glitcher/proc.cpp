@@ -31,5 +31,4 @@ WNDCLASSEX windowClass;
 			windowClass.hCursor = NULL;
 			windowClass.hbrBackground = NULL;
 			windowClass.lpszMenuName = NULL;
-			windowClass.lpszClassName = KIERO_TEXT("Kiero");
-			windowClass.hIconSm = NULL;
+		
